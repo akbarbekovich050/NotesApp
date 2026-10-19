@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основная палитра (совпадает с макетом в Figma) -->
+    <color name="primary">#5B5FEF</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#E4E5FF</color>
+    <color name="on_primary_container">#1B1D6B</color>
+    <color name="secondary">#FFB547</color>
+    <color name="on_secondary">#3A2600</color>
+    <color name="background">#F7F7FB</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#EEEEF5</color>
+    <color name="on_surface">#1C1C28</color>
+    <color name="on_surface_variant">#6B6B80</color>
+    <color name="outline">#D5D5E0</color>
+    <color name="error">#E5484D</color>
+
+    <!-- Цвета карточек заметок -->
+    <color name="note_white">#FFFFFF</color>
+    <color name="note_yellow">#FFF4C2</color>
+    <color name="note_green">#D9F5E3</color>
+    <color name="note_blue">#DCEBFF</color>
+    <color name="note_pink">#FFE0EC</color>
+    <color name="note_purple">#ECE2FF</color>
+</resources>

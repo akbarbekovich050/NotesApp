@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/notesFragment"
+        android:icon="@drawable/ic_note"
+        android:title="@string/nav_notes" />
+    <item
+        android:id="@+id/foldersFragment"
+        android:icon="@drawable/ic_folder"
+        android:title="@string/nav_folders" />
+    <item
+        android:id="@+id/favoritesFragment"
+        android:icon="@drawable/ic_star"
+        android:title="@string/nav_favorites" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_person"
+        android:title="@string/nav_profile" />
+</menu>

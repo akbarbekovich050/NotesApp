@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Заметки</string>
+    <string name="app_tagline">Все мысли — в одном месте</string>
+
+    <!-- Заголовки экранов -->
+    <string name="title_notes">Мои заметки</string>
+    <string name="title_folders">Папки</string>
+    <string name="title_favorites">Избранное</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_search">Поиск</string>
+    <string name="title_new_note">Новая заметка</string>
+    <string name="title_edit_note">Редактирование</string>
+    <string name="title_note">Заметка</string>
+    <string name="title_trash">Корзина</string>
+    <string name="title_about">О приложении</string>
+    <string name="title_folder">Папка</string>
+    <string name="title_register">Регистрация</string>
+
+    <!-- Нижнее меню -->
+    <string name="nav_notes">Заметки</string>
+    <string name="nav_folders">Папки</string>
+    <string name="nav_favorites">Избранное</string>
+    <string name="nav_profile">Профиль</string>
+
+    <!-- Вход и регистрация -->
+    <string name="login_title">С возвращением!</string>
+    <string name="login_subtitle">Войдите, чтобы увидеть свои заметки</string>
+    <string name="register_title">Создайте аккаунт</string>
+    <string name="register_subtitle">Это займёт меньше минуты</string>
+    <string name="hint_name">Имя</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_password_repeat">Повторите пароль</string>
+    <string name="action_login">Войти</string>
+    <string name="action_register">Зарегистрироваться</string>
+    <string name="no_account">Нет аккаунта? Зарегистрироваться</string>
+    <string name="have_account">Уже есть аккаунт? Войти</string>
+    <string name="error_name_empty">Введите имя</string>
+    <string name="error_email_invalid">Введите корректный email</string>
+    <string name="error_password_short">Пароль должен быть не короче 6 символов</string>
+    <string name="error_password_mismatch">Пароли не совпадают</string>
+    <string name="error_email_taken">Пользователь с таким email уже есть</string>
+    <string name="error_wrong_credentials">Неверный email или пароль</string>
+
+    <!-- Списки и пустые состояния -->
+    <string name="empty_notes_title">Пока нет заметок</string>
+    <string name="empty_notes_text">Нажмите «+», чтобы создать первую</string>
+    <string name="empty_favorites_title">Нет избранных заметок</string>
+    <string name="empty_favorites_text">Отметьте заметку звёздочкой, и она появится здесь</string>
+    <string name="empty_trash_title">Корзина пуста</string>
+    <string name="empty_trash_text">Удалённые заметки хранятся здесь, пока вы их не удалите навсегда</string>
+    <string name="empty_folder_title">В папке нет заметок</string>
+    <string name="empty_folder_text">Выберите эту папку при создании заметки</string>
+    <string name="empty_folders_title">Папок пока нет</string>
+    <string name="empty_folders_text">Создайте папку, чтобы разложить заметки по темам</string>
+    <string name="search_hint_title">Что ищем?</string>
+    <string name="search_hint_text">Поиск идёт по заголовку и тексту заметок</string>
+    <string name="search_empty_title">Ничего не найдено</string>
+    <string name="search_empty_text">Попробуйте другой запрос</string>
+    <string name="hint_search">Поиск заметок</string>
+
+    <!-- Редактор -->
+    <string name="hint_title">Заголовок</string>
+    <string name="hint_content">Текст заметки</string>
+    <string name="hint_folder">Папка</string>
+    <string name="label_color">Цвет</string>
+    <string name="no_folder">Без папки</string>
+    <string name="action_save">Сохранить</string>
+    <string name="error_note_empty">Заметка не может быть пустой</string>
+    <string name="note_saved">Заметка сохранена</string>
+    <string name="untitled">Без названия</string>
+
+    <!-- Действия -->
+    <string name="action_add">Создать</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_edit">Изменить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_favorite">В избранное</string>
+    <string name="action_unfavorite">Убрать из избранного</string>
+    <string name="action_restore">Восстановить</string>
+    <string name="action_delete_forever">Удалить навсегда</string>
+    <string name="action_empty_trash">Очистить корзину</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_logout">Выйти</string>
+    <string name="moved_to_trash">Заметка перемещена в корзину</string>
+    <string name="restored">Заметка восстановлена</string>
+    <string name="confirm_delete_title">Удалить заметку?</string>
+    <string name="confirm_delete_text">Заметка будет перемещена в корзину</string>
+    <string name="confirm_delete_forever_text">Это действие нельзя отменить</string>
+    <string name="confirm_empty_trash">Все заметки в корзине будут удалены навсегда</string>
+    <string name="confirm_logout">Выйти из аккаунта?</string>
+
+    <!-- Папки -->
+    <string name="new_folder">Новая папка</string>
+    <string name="hint_folder_name">Название папки</string>
+    <string name="error_folder_empty">Введите название</string>
+    <string name="error_folder_exists">Такая папка уже есть</string>
+    <string name="confirm_delete_folder">Удалить папку «%1$s»? Заметки из неё останутся, но без папки.</string>
+    <string name="folder_hint_long_press">Удерживайте папку, чтобы удалить её</string>
+
+    <!-- Профиль -->
+    <string name="stat_notes">Заметок</string>
+    <string name="stat_favorites">В избранном</string>
+    <string name="stat_folders">Папок</string>
+    <string name="setting_dark_theme">Тёмная тема</string>
+    <string name="about_text">«Заметки» — простое приложение для записи мыслей, идей и списков дел.\n\nЗаметки можно раскладывать по папкам, отмечать как избранные, красить в разные цвета и быстро находить через поиск. Удалённые заметки попадают в корзину, откуда их можно восстановить.\n\nВсе данные хранятся только на устройстве в базе SQLite и сохраняются между запусками.</string>
+    <string name="about_version">Версия %1$s</string>
+    <string name="about_tech">Kotlin · MVVM · ViewModel · StateFlow · SQLite · Navigation</string>
+</resources>
