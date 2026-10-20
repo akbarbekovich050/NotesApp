@@ -15,7 +15,7 @@ class SplashFragment : Fragment(R.layout.fragment_splash) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         viewLifecycleOwner.lifecycleScope.launch {
-            delay(1200)
+            delay(1500)
             val target = if (app.session.isLoggedIn) {
                 R.id.action_splash_to_notes
             } else {

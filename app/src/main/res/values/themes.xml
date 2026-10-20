@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Theme.Notes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Системная заставка Android 12+ в цветах нашей заставки, чтобы переход был незаметным -->
+        <item name="android:windowSplashScreenBackground" tools:targetApi="31">@color/primary_launcher</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="31">@drawable/ic_launcher_foreground</item>
         <item name="colorPrimary">@color/primary</item>
         <item name="colorOnPrimary">@color/on_primary</item>
         <item name="colorPrimaryContainer">@color/primary_container</item>

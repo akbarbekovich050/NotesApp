@@ -10,7 +10,12 @@
 
 `Notes.apk` можно скачать на вкладке **Releases** этого репозитория (debug-сборка, Android 8.0+).
 
-Макет в Figma строится автоматически плагином из папки `figma-plugin/` (Figma Desktop → Plugins → Development → Import plugin from manifest).
+## Дизайн в Figma
+
+- **Макет:** https://www.figma.com/design/RCRHfh7HqOGxG3LL9T1rXa/
+- **Интерактивный прототип:** https://www.figma.com/proto/RCRHfh7HqOGxG3LL9T1rXa/?node-id=1-203&starting-point-node-id=1%3A203&scaling=scale-down
+
+В файле 4 страницы: обложка, стили (15 цветов и 6 текстовых стилей), компоненты с вариантами (Button, Text Field, Color Chip, Note Card, Folder Card, FAB) и 25 макетов экранов с состояниями, связанные 86 переходами прототипа. Макет построен плагином из папки `figma-plugin/` (Figma Desktop → Plugins → Development → Import plugin from manifest).
 
 **Установка на телефон:** скопируйте `Notes.apk` на телефон, откройте файл и разрешите установку из неизвестных источников.
 
